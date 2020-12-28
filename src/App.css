@@ -1,0 +1,146 @@
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: black;
+  color: white
+}
+.App{
+  margin-top: 5px
+}
+#boxName{
+  margin: 3vw;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 4vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  border-radius: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.boxes{
+  margin-top: 10vw;
+}
+.boxes a{
+  text-decoration: none;
+  color: black
+}
+.movies{
+  grid-area: c;
+  display: grid;
+  width: 92%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6vh;
+  margin-top: 7.2vw;
+    
+}
+.rentMovies{
+ 
+  display: grid;
+  width: 92%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6vh;
+  justify-self: center;
+  margin-top: 7.2vw;
+}
+.movieBox{
+  background-repeat: no-repeat;
+  height: 22vw;
+  width: 19vw;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: 21vw 22vw;
+  text-align: right;
+}
+.movieDetail{
+  text-align: center
+}
+.homeBar{
+  margin-left: 29px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.landing{
+  text-align: center
+}
+#logo{
+  float: right;
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgb(219, 27, 27);
+  font-size: 35px;
+}
+.inputAndBudjet{
+  grid-area: i;
+}
+input{
+  margin-top: 3vw;
+  background-color: black;
+  color: white;
+  height: 3vw;
+  width: 40vw;
+  border-radius: 33px;
+  text-indent: 21px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#budget{
+  margin-left: 15vw;
+  font-size: 2vw;
+}
+.header{
+  text-align: left;
+  margin-left: 5.5vw;
+  margin-top: 4vw;
+  grid-area: h;
+  margin-bottom: 18px;
+}
+.movieSection{
+  display: grid;
+    justify-self: center;
+}
+.fas{
+  color: white;
+  margin: 3px;
+}
+
+.homeTitle{
+  padding-left: 138px;
+}
+.detailTitle{
+  padding-left: 121px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.details{
+  width: 52vw;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  margin: 0 auto;
+}
+.moveTitlePage{
+  margin-bottom: 20px;
+}
